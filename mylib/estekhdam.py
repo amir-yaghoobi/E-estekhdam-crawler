@@ -96,6 +96,4 @@ class EstekhdamCrawler:
       json = {'text': text, 'date': date, 'link': link}
       items.append(json)
 
-
-    
     return items
