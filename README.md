@@ -1,5 +1,5 @@
 # E-estekhdam-crawler
-Python crawler for [E-estekhdam](http://www.E-estekhdam.com/) that looks for specific keywords.
+> Python crawler for [E-estekhdam](http://www.E-estekhdam.com/) that looks for specific keywords.
 
 ## How to install
 1. clone project into your pc with: `git clone https://github.com/ayagh/E-estekhdam-crawler.git`  
@@ -12,7 +12,7 @@ after that run it with `python ./run.py`.
 results will be saved into **"result.json"** file.
 
 #### Sample config.py:
-```
+```python
 SITE_URL = 'http://www.e-estekhdam.com/search/استخدام-برنامه-نویس-در-تهران/'
 
 PAGE_LIMIT = 10
