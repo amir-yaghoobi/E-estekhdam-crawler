@@ -1,5 +1,5 @@
 # E-estekhdam-crawler
-Python crawler for E-estekhdam that looks for specific keywords.
+Python crawler for E-estekhdam.com that looks for specific keywords.
 
 ## How to install
 1. clone project into your pc with: `git clone https://github.com/ayagh/E-estekhdam-crawler.git`  
