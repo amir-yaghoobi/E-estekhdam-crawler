@@ -1,7 +1,8 @@
-from mylib.estekhdam import EstekhdamCrawler
-from validators import url as urlValidator, ValidationFailure
 import config
 import json
+from mylib.estekhdam import EstekhdamCrawler
+from validators import url as urlValidator
+
 
 def check_configs():
   """function that validate values in config.py
