@@ -29,7 +29,7 @@ class EstekhdamCrawler:
                 page_items, limit_reached = self.__crawl_page(url)
             else:
                 # crawl the page and get results
-                page_items, limit_reached = self.__crawl_page(f'{url}/page/{page}', today)
+                page_items, limit_reached = self.__crawl_page('{0}/page/{1}'.format(url, page), today)
 
             page += 1
 
