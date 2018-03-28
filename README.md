@@ -15,12 +15,16 @@ results will be saved into **"result.json"** file.
 ```python
 SITE_URL = 'http://www.e-estekhdam.com/search/استخدام-برنامه-نویس-در-تهران/'
 
-PAGE_LIMIT = 10
-
 KEYWORDS = ['کارآموز',]
+
+BOT_TOKEN = '<YOUR-TELEGRAM-BOT-TOKEN>'
+
+# Your channel id for bot to send results into it
+CHANNEL_ID = int
+
 ```
 
 #### Note:
 * **SITE_URL** Must be url from this path http://www.e-estekhdam.com/search/ .
-* **PAGE_LIMIT** Must be an integer and greater than zero.
+* **CHANNEL_ID** Must be an integer.
 * **KEYWORDS** Must be list of strings *(keywords)* and have at least one item.

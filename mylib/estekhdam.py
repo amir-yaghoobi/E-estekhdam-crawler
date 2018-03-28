@@ -21,7 +21,7 @@ class EstekhdamCrawler:
         page = 1
         while True:
             # print current progress
-            print(f'\rProccessing page {page}', end='')
+            print('\rProccessing page {}'.format(page), end='')
 
             # for the first page
             if page == 1:
@@ -43,7 +43,7 @@ class EstekhdamCrawler:
                 print('\nToday links are finished.')
                 break
 
-        print(f'\rFounded #{len(matching_links)} matching links')
+        print('\rFounded #{} matching links'.format(len(matching_links)))
         return matching_links
 
     @staticmethod

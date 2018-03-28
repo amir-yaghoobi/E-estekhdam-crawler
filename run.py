@@ -41,8 +41,8 @@ def main():
         return
 
     print('Starting with these settings')
-    print(f'\tUrl: {config.SITE_URL}')
-    print(f'\tKeywords: {config.KEYWORDS}')
+    print('\tUrl: {}'.format(config.SITE_URL))
+    print('\tKeywords: {}'.format(config.KEYWORDS))
     crawler = EstekhdamCrawler()
     result = crawler.get_results(config.SITE_URL, config.KEYWORDS)
     bot = NotificationBot(config.BOT_TOKEN, config.CHANNEL_ID)
