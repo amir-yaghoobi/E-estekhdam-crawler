@@ -1,8 +1,8 @@
 import config
 import json
-from mylib.estekhdam import EstekhdamCrawler
+from lib.estekhdam import EstekhdamCrawler
 from validators import url as urlValidator
-from mylib.bot import NotificationBot
+from lib.bot import NotificationBot
 
 
 def check_configs():
