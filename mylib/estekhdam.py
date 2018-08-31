@@ -89,7 +89,7 @@ class EstekhdamCrawler:
         soup = BeautifulSoup(html_text, 'lxml')
 
         # find main container that holds search result items
-        estekhdam_list = soup.find('div', {'class': 'span7 col-sm-12 col-xs-12 no-margin'})
+        estekhdam_list = soup.find('div', {'class': 'span8 col-sm-12 col-xs-12 no-margin'})
         estekhdam_soup = BeautifulSoup(str(estekhdam_list), 'lxml')
 
         # find all of a tags in the main container
