@@ -13,14 +13,12 @@ results will be saved into **"result.json"** file.
 
 #### Sample config.py:
 ```python
-SITE_URL = 'http://www.e-estekhdam.com/search/استخدام-برنامه-نویس-در-تهران/'
 
+SITE_URL = 'http://www.e-estekhdam.com/search/استخدام-برنامه-نویس-در-تهران/'
 KEYWORDS = ['کارآموز',]
 
 BOT_TOKEN = '<YOUR-TELEGRAM-BOT-TOKEN>'
-
-# Your channel id for bot to send results into it
-CHANNEL_ID = int
+CHANNEL_ID = int # Your channel id for bot to send results into it
 
 ```
 
